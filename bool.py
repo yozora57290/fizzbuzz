@@ -1,2 +1,2 @@
 for i in range(1, 101):
-    print(("" if i % 3 else "Fizz") + ("" if i % 5 else "Buzz") or i)
+    print(("Fizz" * (not i % 3)) + ("Buzz" * (not i % 5)) or i)
